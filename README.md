@@ -9,6 +9,17 @@
 
 IdeaHub is an intelligent tool that helps you discover relevant public GitHub projects based on your ideas. It combines AI-powered search with a beautiful showcase interface, allowing you to explore, chat about, and save project discoveries.
 
+## Current implementation
+
+The repository now contains a working local-first implementation:
+
+- FastAPI searches GitHub's public repository API and saves every search as a SQLite dataset.
+- The React dashboard lists saved datasets, shows project owner avatars and `owner/repository` paths, and provides dataset-grounded chat answers.
+- The reusable [`search-github-projects`](.codex/skills/search-github-projects/SKILL.md) skill documents safe public search, immutable dataset saving, and IdeaHub deployment boundaries.
+- Docker Compose runs the frontend behind Nginx and proxies `/api` to the backend. Copy `.env.example` to `.env`, optionally set `GITHUB_TOKEN`, then run `docker compose up --build -d`.
+
+For a remote deployment, build and health-check locally first, then provide the target host, access method, domain/port, and rollback expectation. IdeaHub deliberately does not deploy repositories found by a search.
+
 ## ✨ Features
 
 ### 🔍 Smart GitHub Search

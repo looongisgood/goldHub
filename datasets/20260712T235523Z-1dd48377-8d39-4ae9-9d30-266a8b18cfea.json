@@ -1,0 +1,29 @@
+{
+  "id": "pixel-2d-game-candy-wrapper-20260712",
+  "idea": "可实际产出的像素风 2D 小游戏：可运行的 Godot 平台跳跃游戏，适合二次开发",
+  "searched_at": "2026-07-12T23:55:06Z",
+  "github_query": "pixel-art game language:GDScript stars:>30 archived:false",
+  "projects": [
+    {
+      "repository_path": "HarmonyHoney/CandyWrapper",
+      "repository_url": "https://github.com/HarmonyHoney/CandyWrapper",
+      "image_url": "https://avatars.githubusercontent.com/u/36719038?v=4",
+      "name": "CandyWrapper",
+      "owner": "HarmonyHoney",
+      "description": "Godot 4.4.1 / Candy Wrapper / Looping Arcade Platformer Game",
+      "stars": 86,
+      "language": "GDScript",
+      "topics": [
+        "pixel-art",
+        "2d-plaformer",
+        "arcade-game",
+        "godot",
+        "cross-platform",
+        "web-game"
+      ],
+      "license": "MIT",
+      "updated_at": "2026-06-26T16:05:33Z",
+      "archived": false
+    }
+  ]
+}

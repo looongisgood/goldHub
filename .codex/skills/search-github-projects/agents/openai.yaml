@@ -1,0 +1,4 @@
+interface:
+  display_name: "Search GitHub Projects"
+  short_description: "Find, save, and deploy GitHub project research"
+  default_prompt: "Use $search-github-projects to find public GitHub projects for my idea and save a deployable dataset."
